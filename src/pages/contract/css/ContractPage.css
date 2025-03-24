@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+.container {
+    max-width: 820px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    background: #1ea04d;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.section ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.artist-info,
+.distributor-info {
+    background-color: #1ea04d;
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.artist-info p,
+.distributor-info p {
+    margin: 5px 0;
+}
+
+.contract-term {
+    margin-bottom: 20px;
+}
+
+.dancing-script-font {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.signature-section {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.signature-box {
+    width: 50%;
+    text-align: center;
+}
+
+.signature {
+    border-top: 1px solid #000;
+    padding-top: 10px;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logo {
+    width: 100px;
+}
+
+.arrow {
+    font-size: 2em;
+    vertical-align: middle;
+}
+
+.decorative-line {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #e74c3c;
+    margin-left: 5px;
+}
