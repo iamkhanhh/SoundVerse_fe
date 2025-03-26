@@ -5,5 +5,5 @@ export function cn(...inputs:ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 export const apiUrl = {
-  baseURL: "http://54.238.187.71:8080/api"
+  baseURL: "http://44.226.145.213/api"
 };
