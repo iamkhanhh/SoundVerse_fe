@@ -5,5 +5,5 @@ export function cn(...inputs:ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 export const apiUrl = {
-  baseURL: "http://44.226.145.213/api"
+  baseURL: "https://soundverse-be.onrender.com/api"
 };
